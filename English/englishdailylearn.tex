@@ -22,6 +22,13 @@
 \usepackage{lastpage} % 总页数
 \setmainfont{SimSun} % set font to SimSun
 
+% 设置文章格式
+\geometry{left=2.5cm,right=2.5cm,top=2cm,bottom=2cm}
+\pagestyle{fancy}
+\fancyhf{} %自定义页眉页脚的前置代码
+\lhead{Steins Gate} % 左侧页眉
+\rhead{Christina} % 右侧页眉
+
 % 信息栏 Message Bar
 \title{\textbf{Notebook of English} \\ ——There is no end to learning.}
 \author{Aki Wayne}
@@ -32,6 +39,9 @@
 
 \maketitle
 
+\frontmatter
+
+\pagestyle{fancy}
 \pagenumbering{roman}
 \setcounter{page}{1}
 \begin{center}
@@ -48,5 +58,36 @@
 \end{flushright}
 
 \newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\tableofcontents
+
+\newpage
+
+\chapter{Vocabulary}
+\section{第一节}
+
+\subsection{词汇规范}
+\begin{center}
+\large\textbf{词汇记录规则}\\
+\end{center}
+
+\begin{enumerate}
+    \item 词汇需要囊括它常见的三个义，并附带该义造句
+    \item 句式可以摘抄或原创（支持原创）
+    \item 造句水平应符合大学四级水准
+    \item 标题组成应按照“词汇量+坚持+日期”的格式命名
+
+\end{enumerate}
+
+\subsection{第一天(2024-12-7)}
+\textbf{succeed} \\
+1.成功 ~~ Xukun Cai is determined that he should succeed in basketball \\
+2.继任 ~~ Their early succcess was succeeded by a period of miserable failure \\
+3.随后出现 ~~
+~\\
+\textbf{相似词} ~\\
+succeed~precede ~~~~ recede~proceed
 
 \end{document}
